@@ -87,7 +87,7 @@ public class Client {
             inboundFromServer.close();
             outboundToServer.close();
             userInput.close();
-            
+
             logger.info("Socket and communication streams terminated");
         } catch (IOException e) {
             logger.severe(e.toString());
